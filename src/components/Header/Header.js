@@ -60,7 +60,10 @@ export default function Header(props) {
     [classes.absolute]: absolute,
     [classes.fixed]: fixed
   });
-  const brandComponent = <Button className={classes.title}>{brand}</Button>;
+  const brandComponent = <Button className={classes.title} 
+  href="https://stonehamgames.github.io"
+  color="transparent"
+  target="_self">{brand}</Button>;
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>

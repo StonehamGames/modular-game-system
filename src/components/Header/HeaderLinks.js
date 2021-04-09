@@ -28,9 +28,9 @@ export default function HeaderLinks(props) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Button
-          href="/"
+          href="/modular-game-system"
           color="transparent"
-          target="_blank"
+          target="_self"
           className={classes.navLink}
         >
           <span style={{color: 'orange'}}>
