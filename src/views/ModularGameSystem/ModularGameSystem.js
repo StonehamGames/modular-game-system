@@ -1,6 +1,4 @@
 import React from "react";
-// nodejs library that concatenates classes
-import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -11,8 +9,9 @@ import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import Button from "components/CustomButtons/Button.js";
+import Parallax from "components/Parallax/Parallax.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
+import Button from "components/CustomButtons/Button.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
@@ -37,6 +36,22 @@ export default function ModularGameSystem(props) {
         }}
         {...rest}
       />
+      <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+        <div className={classes.container}>
+        <GridContainer>
+        <GridItem xs={12} sm={12} md={6}>
+              <h1 className={classes.title}>Modular Game System.</h1>
+              <h4>
+                Break your game assets into modules and manage them in one
+                coherant place.
+              </h4>
+              <br />
+              <Button>Docs coming soon!</Button>
+            </GridItem>
+          </GridContainer>
+        </div>
+      </Parallax>
+      <Footer />
       </div>
   )
 };
