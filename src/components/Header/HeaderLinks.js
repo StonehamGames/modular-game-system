@@ -91,11 +91,28 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://assetstore.unity.com/publishers/1337?ref=shggithubio"
+            href="https://assetstore.unity.com/publishers/53506?preview=1&ref=shggithubio"
             target="_blank"
             className={classes.navLink}
           >
             <i className={classes.socialIcons + " fab fa-unity"} />
+          </Button>
+        </Tooltip>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="instagram-github"
+          title="Check us out on GitHub"
+          placement={window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color="transparent"
+            href="https://github.com/stonehamgames/"
+            target="_blank"
+            className={classes.navLink}
+          >
+            <i className={classes.socialIcons + " fab fa-github"} />
           </Button>
         </Tooltip>
       </ListItem>
