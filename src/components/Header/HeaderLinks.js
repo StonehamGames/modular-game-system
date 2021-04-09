@@ -71,7 +71,7 @@ export default function HeaderLinks(props) {
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/StonehamGames?ref=shggithubio"
+            href="https://twitter.com/StonehamG?ref=shggithubio"
             target="_blank"
             color="twitter"
             className={classes.navLink} simple
