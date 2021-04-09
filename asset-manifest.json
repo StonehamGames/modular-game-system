@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/modular-game-system/static/css/main.fedf132f.chunk.css",
-    "main.js": "/modular-game-system/static/js/main.0e696ef9.chunk.js",
-    "main.js.map": "/modular-game-system/static/js/main.0e696ef9.chunk.js.map",
+    "main.js": "/modular-game-system/static/js/main.37b6153d.chunk.js",
+    "main.js.map": "/modular-game-system/static/js/main.37b6153d.chunk.js.map",
     "runtime-main.js": "/modular-game-system/static/js/runtime-main.f3acab84.js",
     "runtime-main.js.map": "/modular-game-system/static/js/runtime-main.f3acab84.js.map",
     "static/js/2.d58f97b6.chunk.js": "/modular-game-system/static/js/2.d58f97b6.chunk.js",
     "static/js/2.d58f97b6.chunk.js.map": "/modular-game-system/static/js/2.d58f97b6.chunk.js.map",
     "index.html": "/modular-game-system/index.html",
-    "precache-manifest.21a0c35d8785a0add6381848990f8781.js": "/modular-game-system/precache-manifest.21a0c35d8785a0add6381848990f8781.js",
+    "precache-manifest.993c5e9ff87b35f3b5f3e733bcb2b190.js": "/modular-game-system/precache-manifest.993c5e9ff87b35f3b5f3e733bcb2b190.js",
     "service-worker.js": "/modular-game-system/service-worker.js",
     "static/css/main.fedf132f.chunk.css.map": "/modular-game-system/static/css/main.fedf132f.chunk.css.map",
     "static/js/2.d58f97b6.chunk.js.LICENSE.txt": "/modular-game-system/static/js/2.d58f97b6.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.f3acab84.js",
     "static/js/2.d58f97b6.chunk.js",
     "static/css/main.fedf132f.chunk.css",
-    "static/js/main.0e696ef9.chunk.js"
+    "static/js/main.37b6153d.chunk.js"
   ]
 }
