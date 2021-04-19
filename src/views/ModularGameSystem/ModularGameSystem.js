@@ -43,7 +43,7 @@ export default function ModularGameSystem(props) {
               <h1 className={classes.title}>Modular Game System.</h1>
               <h4>
                 Break your game assets into modules and manage them in one
-                coherant place.
+                coherent place.
               </h4>
               <br />
               <Button>Docs coming soon!</Button>
